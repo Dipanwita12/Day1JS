@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: black;
+    color:white;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.italic{
+    padding:20px;
+    font-size: 24px;
+text-align: center;
+font-weight: lighter;
+}
+.small{
+    font-size: 18px;
+}
+.time{
+    text-align: center;
+    padding-top:30px;
+    font-size:100px;
+}
+.Date{
+    text-align: center;
+    padding-top:30px;
+    font-size:50px;
+}
+.alarm{
+    font-size:20px;
+    color:white;
+    position:fixed;
+    bottom: 240px;
+    right:200px;
+}
+input{
+    width:40px;
+    font-weight: bolder;
+
+}
+.dateset{
+ width:100px;
+}
+.buttons{
+    position:fixed;
+    bottom: 200px;
+    right:300px;
+    width:40px;
+    cursor:pointer;
+    border-radius:10px;
+
+}
+buttons:hover{
+background-color: white;
+color:black;
+font-weight: bolder;
+}
